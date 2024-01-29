@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#game-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.guess {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    cursor: default;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    vertical-align: top;
+    background-color: white;
+    
+}
+
+
+#alphabet-buttons {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border: 0.5px solid black;
+}
+
+.button.correct {
+    background-color: #BDE7BD;
+    color: #333;
+    cursor: default;
+}
+
+.button:disabled {
+    background-color: #FFB6B3;
+    color: #333; 
+    cursor: not-allowed; 
+}
