@@ -25,6 +25,10 @@ h1 {
     align-items: center;
 }
 
+#difficulty {
+    margin-top: 0px;
+    font-size: 14px;
+}
 
 .guess {
     height: 40px;
@@ -38,7 +42,6 @@ h1 {
     background-color: white;
     
 }
-
 
 #alphabet-buttons {
     width: 500px;
